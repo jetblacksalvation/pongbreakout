@@ -4,12 +4,12 @@
 #include <math.h>
 class square {
 public:             // Access specifier
-    int x;
-    int y;          // Attribute (int variable)
-    float dial;
-    float f;
+    int x ;  
+    int y ;          // Attribute (int variable)
+    float dial ;
+    float f ;
     float ydil;
-    float frmOrigin;
+    float frmOrigin = true;
     sf::VertexArray linesCenter;
     sf::VertexArray linesLeft;
     std::string name;
